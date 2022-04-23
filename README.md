@@ -1,7 +1,7 @@
 # SC1015  Mini Project - _League of Legends_
 ![image](frontpage.jpg)
 ## About
-This is a project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on predicting the win rate in the game League of Legends using the data of the state of the game in the early game (first 15 minutes). For detailed walkthrough, please view the source code in the [Jupyter Notebooks](/Jupyter_notebooks) folder in order from: 
+This is a project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on **predicting the win rate in the game League of Legends using the data of the state of the game in the early game (first 15 minutes)**. For detailed walkthrough, please view the source code in the [Jupyter Notebooks](/Jupyter_notebooks) folder in order from: 
 ### 1. Data Analysis 
 _The code might not be rendered in github as the filesize is large for the two files_
 1. [Data_Analysis_part1.ipynb](Data_Analysis_part1.ipynb)
