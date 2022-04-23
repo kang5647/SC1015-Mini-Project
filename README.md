@@ -3,8 +3,8 @@
 ## About
 This is a project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on **predicting the win rate in the game League of Legends using the data of the state of the game in the early game (first 15 minutes)**. For detailed walkthrough, please view the source code in the [Jupyter Notebooks](/Jupyter_notebooks) folder in order from: 
 ### 1. Data Analysis 
-1. [Data_Analysis_part1.ipynb*](Data_Analysis_part1.ipynb)
-2. [Data_Analysis_part2.ipynb*](Data_Analysis_part2.ipynb)
+1. [Data_Analysis_part1.ipynb*](Jupyter_notebooks/Data_Analysis_part1.ipynb)
+2. [Data_Analysis_part2.ipynb*](JUpyter_notebooks/Data_Analysis_part2.ipynb)
 \
 \
 Require [match_15m.csv](data/match_15m.csv) and [match_full_time.csv](data/match_full_time.csv). We separate Data Analysis into 2 parts as a single notebook is too big  to be uploaded onto github. The code in the notebooks are used to analyze the 
