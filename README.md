@@ -3,9 +3,8 @@
 ## About
 This is a project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on **predicting the win rate in the game League of Legends using the data of the state of the game in the early game (first 15 minutes)**. For detailed walkthrough, please view the source code in the [Jupyter Notebooks](/Jupyter_notebooks) folder in order from: 
 ### 1. Data Analysis 
-_The code might not be rendered in github as the filesize is large for the two files_
-1. [Data_Analysis_part1.ipynb](Data_Analysis_part1.ipynb)
-2. [Data_Analysis_part2.ipynb](Data_Analysis_part2.ipynb)
+1. [Data_Analysis_part1.ipynb*](Data_Analysis_part1.ipynb)
+2. [Data_Analysis_part2.ipynb*](Data_Analysis_part2.ipynb)
 \
 \
 Require [match_15m.csv](data/match_15m.csv) and [match_full_time.csv](data/match_full_time.csv). We separate Data Analysis into 2 parts as a single notebook is too big  to be uploaded onto github. The code in the notebooks are used to analyze the 
@@ -16,6 +15,13 @@ Require [match_15m.csv](data/match_15m.csv) and [match_full_time.csv](data/match
 ### 3. [Machine Learning](/Jupyter_notebooks/Model_training.ipynb)  
    Require [blueTeam_cleaned_data.csv](data/blueTeam_cleaned_data.csv). This notebook is used to perform **machine learning** on the cleaned dataset. We use 
    [Logistic Regression](https://pythonfordatascienceorg.wordpress.com/logistic-regression-python/) function to create 2 models - one with the **number of dragon takedowns**, the other with the **specific types of dragons being killed**. We then compare the outcome of the models to see how each feature affect the outcome of the game
+   
+\
+_(*) some notebooks might not be rendered fully in Github due to the large filesize. Please visit the links in NBViewer for full render:_
+1. [Data_Analysis_part1.ipynb](https://nbviewer.org/github/kang5647/SC1015-Mini-Project/blob/main/Jupyter_notebooks/Data_Analysis_part1.ipynb)
+2. [Data_Analysis_part2.ipynb](https://nbviewer.org/github/kang5647/SC1015-Mini-Project/blob/main/Jupyter_notebooks/Data_Analysis_part2.ipynb)
+3. [Data_Cleaning.ipynb](https://nbviewer.org/github/kang5647/SC1015-Mini-Project/blob/main/Jupyter_notebooks/Data_Cleaning.ipynb)
+4. [Model_training.ipynb](https://nbviewer.org/github/kang5647/SC1015-Mini-Project/blob/main/Jupyter_notebooks/Model_training.ipynb)
 ## Problem Statement
 > **_Given the 15-minute dataset: Estimate the Chances of Winning the Game based on the Macro Decisions_**
 ## Model used 
