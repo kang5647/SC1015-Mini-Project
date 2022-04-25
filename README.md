@@ -7,7 +7,7 @@ This is a project for SC1015 (Introduction to Data Science and Artificial Intell
 2. [Data_Analysis_part2.ipynb*](JUpyter_notebooks/Data_Analysis_part2.ipynb)
 \
 \
-Require [match_15m.csv](data/match_15m.csv) and [match_full_time.csv](data/match_full_time.csv). We separate Data Analysis into 2 parts as a single notebook is too big  to be uploaded onto github. The code in the notebooks are used to analyze the 
+Require [match_15m.csv](data/match_15m.csv) and [match_full_time.csv](data/match_full_time.csv). We separate Data Analysis into 2 parts as a single notebook is too large to be uploaded onto github. The code in the notebooks are used to analyze the 
  **macro decisions** against **win rate** in the first 15 minutes of the match. Each analysis is done by **tiers** to see if players in different tiers vary in decision-making and playstyle. Some **data cleaning** and **feature engineering** is done for the analysis. **Plotly** is used to visualize the data. 
 ### 2. [Data Cleaning](/Jupyter_notebooks/Data_Cleaning.ipynb)  
    Require [match_15m.csv](data/match_15m.csv) and [match_full_time.csv](data/match_full_time.csv). This notebook is used to **combine all the data 
